@@ -1,0 +1,5 @@
+<!-- You can paste this directly in your HTML -->
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" rx="8" fill="#0F0F0F"/>
+  <text x="16" y="26" font-family="Courier New, monospace" font-size="20" fill="#00FFCC">&gt; IZ</text>
+</svg>

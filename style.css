@@ -1,0 +1,220 @@
+/* .container{822f2f
+    background-color: rgb(219, 64, 64);
+} */
+ body{
+background-color: rgb(26, 24, 24);
+ }
+ .container{
+    
+   height: 50
+;
+   /* width: 100%; */
+   display: flex;
+   justify-content: center;
+ }
+ .navbar{
+    width: 90%;
+     border-radius: 50px;
+     display: flex;
+     justify-content: space-between;
+     
+
+      
+    
+ }
+ html {
+  overflow-y: scroll;
+  scroll-padding-top: 70px;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black; /* or your navbar color */
+  z-index: 999;
+}
+
+.navbar {
+    
+    color: white;
+    padding: 0px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+    
+}
+.navbar ul {
+    margin: 12px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+    /* padding-right: 50px; */
+    font-size: large;
+
+}
+.navbar ul:hover{
+/* cursor: pointer; */
+}
+.container2{
+    /* border: 2px solid white; */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    color: azure;
+    
+    /* height: 70px; */
+    width: 100%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.img{
+    height: 20px;
+    width: 20px;
+}
+.about{
+ background-color: rgb(39, 35, 35);
+    color: white;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.about:hover{
+    cursor: pointer;
+    /* background-color: rgb(146, 125, 125); */
+       background-color: brown;
+    /* color: white; */
+}
+.Projects{
+    background-color: rgb(39, 35, 35);
+    color: white;
+    font-size: larger;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.Projects:hover{
+    cursor: pointer;
+     background-color: brown;
+    
+}
+.contact{
+      background-color: rgb(39, 35, 35);
+   color: white;
+    font-size: larger;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.contact:hover{cursor: pointer;
+     background-color: brown;
+    
+}
+.Profiles{
+      background-color: rgb(39, 35, 35);
+    
+    color: white;
+    font-size: larger;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.Profiles:hover{cursor: pointer;
+    background-color: brown;
+}
+.links{
+      color: white;
+      background-color:  rgb(39, 35, 35);
+    
+    font-size: larger;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.links:hover{cursor: pointer;
+       background-color: brown;
+  
+}
+.more{
+    background-color:  rgb(39, 35, 35);
+  color: white;
+    font-size: larger;
+    font-size: larger;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.more:hover{cursor: pointer;
+     background-color: brown;
+}
+.container2 .center img{
+      width: 160px;
+  height: 190px;
+  border-radius: 50%;
+  /* border: 3px solid #ff4f8b; */
+  margin-bottom: 20px;
+ 
+}
+#content {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#content.fade-out {
+  opacity: 0;
+}
+@media(max-width: 768px) {
+  .center{
+    padding: 20px;
+    position: relative;
+    left: 30px;
+  }
+}

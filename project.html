@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+  <div class="back"><img src="back.svg" alt=""></div>
+
+
+  <header>
+    <h1 class="title">Projects </h1>
+    <div class="divider"></div>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <img src="vote.png" alt="Voting System" />
+      <div class="card-content">
+        <h2>Voting System - C++</h2>
+        <p>Fundamental concepts usage in a CLI-based voting system.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="Screenshot (313).png" alt="Portfolio Website" />
+      <div class="card-content">
+        <h2>Portfolio Website</h2>
+        <p>Made my own front-end only personal portfolio site.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="bank.png" alt="Bank Management System" />
+      <div class="card-content">
+        <h2>Bank Management System</h2>
+        <p>Semester project in C++ simulating basic banking operations.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="more.png" alt="More Projects" />
+      <div class="card-content">
+        <h2>More to Explore</h2>
+        <p>Still learning and working on more projects daily...</p>
+      </div>
+    </div>
+  </section>
+<style>
+  /* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .back img{
+padding: 15px;
+size: 50px;
+    }
+    .back img:hover{
+        transform: scale(2.0);
+        transition: all ease-out 0.3s;
+        cursor: pointer;
+    }
+body {
+
+background-color: rgb(26, 24, 24);
+ 
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: red;
+}
+
+.divider {
+  width: 100px;
+  height: 3px;
+  background-color: red;
+  margin: 10px auto 0;
+}
+
+/* Projects Grid */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Card */
+.card {
+  background-color: #1d1b1b;
+  border: 2px solid #000;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-bottom: 2px solid #fff;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: #ccc;
+}
+
+</style>
+</body>
+</html>
